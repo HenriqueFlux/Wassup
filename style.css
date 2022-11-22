@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,400;1,600&display=swap');
+@font-face {
+    font-family: street;
+    src: url(fonts/street\ soul.ttf) format(truetype);
+}
+
+body{
+    background-color: white;
+}
+
+main{
+    background-color: #5cf26c;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(149, 141, 175, 0.502);
+    width: 700px;
+    padding: 15px;
+    margin: auto;
+}
+
+h1#main{
+    font-family: street;
+    font-weight: normal;
+    font-size: 4em;
+    text-align: center;
+}
+
+h2#main{
+    font-family: Roboto Mono;
+    font-size: 1.2em;
+    text-align: center;
+}
