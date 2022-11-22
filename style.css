@@ -18,11 +18,14 @@ main{
     margin: auto;
 }
 
-h1#main{
+a#main{
     font-family: street;
     font-weight: normal;
     font-size: 4em;
     text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
 }
 
 h2#main{
