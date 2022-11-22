@@ -4,6 +4,29 @@
     font-family: street;
     src: url(fonts/street\ soul.ttf) format(truetype);
 }
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+
+    .fadeIn {
+        -webkit-animation: fadeIn 0.5s ease-in-out;
+        -moz-animation: fadeIn 0.5s ease-in-out;
+        -o-animation: fadeIn 0.5s ease-in-out;
+        animation: fadeIn 0.5s ease-in-out;
+        }
 
 body{
     background-color: white;
@@ -63,7 +86,23 @@ li{
     color: black;
 }
 
+#menu-h li a:hover{
+    color: rgb(32, 228, 25);
+    transition: 0.3s;
+    padding: 2px;
+}
+
 #menu{
     display: flex;
     justify-content: center;
+}
+
+#contato
+{
+    color: black;
+}
+
+#contato i{
+    font-size: 32px;
+    
 }
