@@ -8,7 +8,7 @@
     content="width=device-width, initial-scale=1.0">
     <link 
     rel="stylesheet" 
-    href="main.style.css">
+    href="style.css">
     <link 
     rel="stylesheet" 
     href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"crossorigin="anonymous"/>
@@ -31,41 +31,31 @@
     href="imagens/favicon/site.webmanifest">
     <title>Quem nós somos</title>
 </head>
-<body class="fadeIn">
-
+<body>
+    <header>
+        <h1><a href="home.html" target="self">Wassup!</a></h1>
+        <h2 id="header_down">Um olhar profundo sobre as diferentes facetas da arte, Wassup! 🇧🇷</h2>
+        <nav>
+            <a href="home.html" target="_self">Home</a>
+            <a href="news.html" target="_self">News</a>
+            <a href="magazine.html" target="_self">Magazine</a>
+            <a href="nos.html" target="_self">Nós</a>
+            <a href="contato.html" target="_self">Contato</a>
+           </nav>
+    </header>
     <main>
-       <div>
-        <a id="main" href="index.html" target="self">Wassup!</a>
-        <h2 id="main">Um olhar profundo sobre as diferentes facetas da arte, Wassup! 🇧🇷</h2>
-       </div>
+        <section class="section">
+            <article>
+                <h1 id="title_apresentacao">Wassup! Brasil</h1>
+                <p>Nós somos a <span id="span_apresentacao">Wassup!</span></p>
+                <p>Iremos te levar em uma viagem por todo universo do Hip-Hop, explorando cada espaço dessa atmosfera. 🌐</p>
+                <p>Fugindo da superficialidade e do básico, apostando no diferente como Andre 3000, sejam bem vindos à essa viagem.</p>
+                <p  id="img_apresentacao"><img class="displayed" src="imagens/nos/nos-550.jpg" alt=""></p>
+            </article>
+        </section>
     </main>
-    <div id="menu">
-        <ul id="menu-h">
-            <li>
-                <a href="index.html" target="_self">
-                    Home</a>
-            </li>
-            <li>
-                <a href="news.html" target="_self">
-                    News
-                </a>
-            </li>
-            <li>
-                <a href="magazine.html" target="_self">
-                    Magazine   
-                </a>
-            </li>
-            <li>
-                <a href="nos.html" target="_self">
-                    Nós
-                </a>
-            </li>
-            <li>
-                <a href="contato.html" target="_self">
-                    Contato
-                </a>
-            </li>
-        </ul>
-    </div>
+    <footer>
+        created by <a href="https://www.github.com/HenriqueFlux" target="_blank">Henrique</a>
+    </footer>
 </body>
 </html>
