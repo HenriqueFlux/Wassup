@@ -91,6 +91,12 @@ nav a:hover{
     color: #5cf26c;
 }
 
+.title_contatos{
+    text-align: center;
+    
+    margin: 10px auto;
+}
+
 .section{
     background-color: white;
     box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 10%);
@@ -98,7 +104,7 @@ nav a:hover{
     border-radius: 10px;
     
     margin-top: 30px;
-    margin-right: 100px;
+    margin-right: 92px;
     margin-bottom: auto;
     margin-left: 92px;
 }
@@ -188,5 +194,5 @@ footer a:hover{
     font-size: 1em;
     text-align: center;
 
-    margin: auto 312px;
+    margin: auto 292px;
 }
